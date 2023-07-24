@@ -12,24 +12,29 @@ tags: ["Hugo", "PaperMod", "Blog", "Website"]
 ---
 
 ### 测试环境
+
 WSL2 + VSCode
 
 ### 安装必要的软件包
+
 ```bash
 # 安装hugo
 sudo apt install hugo
 ```
 
 ### 创建网站
+
 ```bash
 # 创建网站, 替换your-website-name为自己想要的名字
 hugo new site your-website-name -f yml
 ```
 
 ### 配置网站
+
 [You can learn more and see more configuration settings that work with the PaperMod theme in the documentation.](https://adityatelange.github.io/hugo-PaperMod/)
 
 ### 本地运行网站
+
 ```bash
 # 进入网站目录
 cd your-website-name
