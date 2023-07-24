@@ -1,5 +1,5 @@
 ---
-title: "学习笔记 : LLM Powered Autonomous Agents"
+title: "LLM Powered Autonomous Agents"
 date: 2023-07-08T16:56:49+08:00
 draft: false
 ---
@@ -10,7 +10,6 @@ draft: false
 [文章出处在这里](https://lilianweng.github.io/posts/2023-06-23-agent/)
 
 LLM powered autonomous agents: *planning + memeoy + tool use*
-一些测试文字
 
 ## 1. planning
 
@@ -49,7 +48,7 @@ d. 使用简单，只需要一个prompt，而不是一个大的训练集。
 
 通过构建thought-action-observation-thought... 这样的思维链，可以使得模型在推理能力上有明显的提升。具体结果如下图：
 
-![CoT实验结果](../../static/imgs/CoT-result.png)
+![CoT实验结果](/imgs/CoT-result.png)
 
 thoughts:
 
