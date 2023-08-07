@@ -46,7 +46,7 @@ params:
 
 
   assets:
-    disableHLJS: true # to disable highlight.js
+    disableHLJS: false # to disable highlight.js
     # disableFingerprinting: true
     # favicon: "https://lilianweng.github.io/favicon_peach.ico"
     favicon: "/favicon/kuafu.ico"
