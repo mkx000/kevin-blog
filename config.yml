@@ -17,6 +17,8 @@ minify:
   minifyOutput: true
 
 params:
+  math: false
+
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Kevin's blog
   description: This is Ma Kaixuan's log
