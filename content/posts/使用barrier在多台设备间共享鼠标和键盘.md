@@ -102,4 +102,13 @@ Connection to 服务器ip地址 24800 port [tcp/*] succeeded!
 
 ### 7. 修改Linux配置(这个好像没啥用？)
 
-Linux配置忘了，以后再说。。。
+Linux配置忘了，好像不是很重要以后再说。。。
+
+### 8. 鼠标停滞在客户端屏幕边缘的问题
+
+[这个问题](https://github.com/debauchee/barrier/issues/206#issuecomment-962638647)是因为客户端的屏幕分辨率比服务端的屏幕分辨率低，导致鼠标停滞在客户端屏幕边缘
+
+解决方法：
+
+0. 服务端使用2.3.4的版本 参考这个: https://github.com/debauchee/barrier/issues/206#issuecomment-962638647
+1. 可以通过修改客户端的分辨率或者缩放比例

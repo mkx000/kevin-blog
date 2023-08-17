@@ -1,22 +1,23 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Linux实用工具"
+date: 2023-08-15T13:55:54+08:00
 draft: true
 # weight: 1
 # aliases: ["/first"]
-tags: [""]
-author: "mkx"
+tags: ["first"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 hidemeta: false
 comments: false
-description: "描述这篇文章."
+description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: false # to disable highlightjs
+disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: false
+searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -34,9 +35,3 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-
-## 键盘
-
-### 键盘映射
-
-```
