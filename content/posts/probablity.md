@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Probablity"
+date: 2023-08-17T20:21:00+08:00
 draft: true
 # weight: 1
 # aliases: ["/first"]
@@ -34,3 +34,9 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+## 键盘
+
+### 键盘映射
+
+```
